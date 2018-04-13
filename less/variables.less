@@ -1,0 +1,29 @@
+
+/*变量*/
+//设计稿宽度
+@psdWidth:750px;
+//默认基准值
+@baseFontSize:100px;
+//主流设备尺寸
+@deviceList:320px,360px,375px,384px,400px,411px,414px,468px,480px,540px,600px,640px,720px,750px;
+@len:length(@deviceList);
+@snColor:#fa0;
+/*混入*/
+//.adapterFuc(@deviceWidth){
+//  @media (min-width: @deviceWidth){
+//    html{
+//      font-size: @deviceWidth/@psdWidth*@baseFontSize;
+//    }
+//  }
+//}
+// 自调用 直到遍历到 数组最后一个  停止
+
+/*生成rem适配方案代码*/
+//.adapterFuc(320px);
+//.adapterFuc(360px);
+//.adapterFuc(375px);
+//.adapterFuc(411px);
+
+/*顶部通栏*/
+
+
